@@ -160,7 +160,7 @@ inView('section.subscription', ({ target }) => {
     animate(
         target.querySelector('p'), {
             opacity: ['0', '1'],
-            y: ['50px', '0']
+            y: ['400px', '0']
         },
         { duration: 1, easing: 'linear' }
     ),
