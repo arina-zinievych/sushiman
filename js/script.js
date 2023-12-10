@@ -149,6 +149,30 @@ inView('section.trending', ({ target }) => {
     )
 });
 
+inView('section.subscription', ({ target }) => {
+    animate(
+        target.querySelector('h2'), {
+            opacity: ['0', '1'],
+            scale: ['0.4', '1']
+        },
+        { duration: 1, easing: 'linear' }
+    ),
+    animate(
+        target.querySelector('p'), {
+            opacity: ['0', '1'],
+            y: ['50px', '0']
+        },
+        { duration: 1, easing: 'linear' }
+    ),
+    animate(
+        target.querySelector('.subscription__form'), {
+            opacity: ['0', '1'],
+            y: ['400px', '0']
+        },
+        { duration: 1, easing: 'linear' }
+    )
+});
+
 
 const trendingSushis = [
     'Make Sushi',
