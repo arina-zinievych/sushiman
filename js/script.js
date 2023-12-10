@@ -111,6 +111,44 @@ inView('section.popular-foods', ({ target }) => {
     )
 });
 
+inView('section.trending', ({ target }) => {
+    animate(
+        target.querySelector('.trending-sushi .trending__content'), {
+            opacity: ['0', '1'],
+            x: ['-400px', '0']
+        },
+        { duration: 0.8, easing: 'linear' }
+    ),
+    animate(
+        target.querySelector('.trending-sushi .trending__image img'), {
+            opacity: ['0', '1'],
+            x: ['400px', '0']
+        },
+        { duration: 0.8, easing: 'linear' }
+    ),
+    animate(
+        target.querySelector('.trending__discover'), {
+            opacity: ['0', '1'],
+            scale: ['1.4', '1']
+    },
+        { duration: 0.8, easing: 'linear' }
+    ),
+    animate(
+        target.querySelector('.trending-drinks .trending__image img'), {
+            opacity: ['0', '1'],
+            x: ['-400px', '0']
+    },
+        { duration: 0.8, easing: 'linear' }
+    ),
+    animate(
+        target.querySelector('.trending-drinks .trending__content'), {
+            opacity: ['0', '1'],
+            x: ['400px', '0']
+    },
+        { duration: 0.8, easing: 'linear' }
+    )
+});
+
 
 const trendingSushis = [
     'Make Sushi',
