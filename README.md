@@ -8,7 +8,7 @@
 
 <p>This is the site of a restaurant specializing in Japanese food.</p>
 
-👉 Live Demo: <a href='' target="_blank">Sushiman Demo</a>
+👉 Live Demo: <a href='https://sushiman-zeta.vercel.app/' target="_blank">Sushiman Demo</a>
 
 <h3>Build with:</h3>
 
